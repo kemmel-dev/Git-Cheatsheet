@@ -12,25 +12,40 @@ First: This video series by TheCodingTrain is an incredibly helpful source to le
 ## Commands
 
 `ls` lists all the files in the current folder
+
 `cd <path>` changes directories to Path
+
 `cd ..` moves one directory up
+
 `git clone <url>` clones a repository into the currentDit/repoName folder
+
 `git status` shows you the current changes youve made to files and the amount of
 changes that you have opposed to the remote repository
+
 `git add <filepath>` makes git track a file, and stages it for a commit.
+
 `git add .` adds literally evyerthing in your folder
+
 `git add *` also adds literally everything in your folder, but works a bit differently: 
 
 `.` is a 'and everything else' token. So for example the word `cheese` is caught by `*`,
 `*se` , or `*eese` but not by `*eeke`.
+
 `git commit -m "<message>"` commits your currently added files with a message.
+
 `git pull` gets all the changes on the current branch
+
 `git fetch` gets all the changes on every branch
+
 `git push` pushes your changes
+
 `git branch` lists all the available branches
+
 `git checkout <branchName>` checks out to a branch called `branchName`
+
 `git checkout -b <branchName>` creates a branch called `branchName` and checks out to
 that branch
+
 `git merge <branchName>` merges the branch called `branchName` into the *current branch*
 
 ## Default workflow
