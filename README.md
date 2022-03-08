@@ -7,6 +7,7 @@ First: This video series by TheCodingTrain is an incredibly helpful source to le
 # Terms
 
 `remote repository` is the repository on [github.com](http://github.com/)
+
 `local repository` is the repository on your own computer
 
 ## Commands
@@ -90,6 +91,7 @@ staged files
 (dont use this unless you know what you are doing. If you don’t: please use pull requests through the interface on the corresponding website (i.e. if you are using github, github.com))
 
 `git checkout main` go back to the `main` branch
+
 `git merge branchName` merge the `branchName` into `main`
 
 ## Example log
